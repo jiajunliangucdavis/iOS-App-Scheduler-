@@ -1,4 +1,4 @@
-# Scheduler
+# iOS App: Scheduler
 ## Motivation
 Although there are many similar apps available on the App Store now, based on our experience, these apps are sometimes too ‘powerful’ that are not very user friendly or they are dedicated to a monotonous functionality (although they are very good) that we have to install multiple apps in order to acquire all the functions we are looking for. Therefore, we wish to build one app that balance complexity and functionality, including the best features that can promote productivity. After refining and improving our app by refining the key features, improving our user interface and the overall flow, we have finally created an app that has some compelling features compared with other similar management and productivity apps. 
 
