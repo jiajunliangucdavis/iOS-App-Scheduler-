@@ -8,6 +8,12 @@ The Scheduler app integrates the functionality of self-control, simple event sch
 ## Further improvement 
 We need to collect as much feedback as we can to continue refining our app. Meanwhile, we will also be checking app’s performance and keep optimizing it. Loading a pre-upload events by fetching and comparing geo-location is also a cool feature that we wish to continue working on, and we wish to turn what we hardcoded now into a true functionality of our app.
 
+## App View
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+
+
 ## Team Member:
 | NAME: | Hanxing Zhang | Jiajun Liang | Yanxi Li | Sunil Ramakrishnan |
 |-------|--------|--------|--------|--------|
