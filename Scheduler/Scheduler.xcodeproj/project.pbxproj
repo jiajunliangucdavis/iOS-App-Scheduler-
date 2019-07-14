@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107137BC21AB8D8B008422C9 /* addTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107137B921AB8D8B008422C9 /* addTask.swift */; };
+		962FA48A21B617230055AC4D /* ToDoListTableView copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962FA47F21B617200055AC4D /* ToDoListTableView copy.swift */; };
+		962FA48D21B617230055AC4D /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962FA48221B617220055AC4D /* TimerViewController.swift */; };
+		962FA4CB21B64C630055AC4D /* checked.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4BF21B64C630055AC4D /* checked.PNG */; };
+		962FA4CD21B64C630055AC4D /* unchecked.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4C121B64C630055AC4D /* unchecked.PNG */; };
+		962FA4CE21B64C630055AC4D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4C221B64C630055AC4D /* 5.png */; };
+		962FA4CF21B64C630055AC4D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4C321B64C630055AC4D /* 6.png */; };
+		962FA4D021B64C630055AC4D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4C421B64C630055AC4D /* 2.png */; };
+		962FA4D121B64C630055AC4D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4C521B64C630055AC4D /* 3.png */; };
+		962FA4D221B64C630055AC4D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4C621B64C630055AC4D /* 1.png */; };
+		962FA4D521BA45970055AC4D /* briefcase@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4D321BA45930055AC4D /* briefcase@3x.png */; };
+		962FA4D621BA45970055AC4D /* visible@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 962FA4D421BA45950055AC4D /* visible@3x.png */; };
+		9662A73121BCFDDE00FE0DD3 /* fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662A72F21BCFDDD00FE0DD3 /* fail.png */; };
+		9662A73221BCFDDE00FE0DD3 /* success.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9662A73021BCFDDE00FE0DD3 /* success.jpeg */; };
+		966BF44221BA69E200A79834 /* home_automation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BF44021BA69DE00A79834 /* home_automation@3x.png */; };
+		966BF44321BA69E200A79834 /* file@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BF44121BA69E100A79834 /* file@3x.png */; };
+		966BF44521BABB9C00A79834 /* list@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BF44421BABB9A00A79834 /* list@3x.png */; };
+		966BF44721BBD16000A79834 /* icons8-today-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BF44621BBD15D00A79834 /* icons8-today-96.png */; };
+		A358C4E321A7E1AD00434A0A /* DailyPalnnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358C4DF21A7E1AD00434A0A /* DailyPalnnerViewController.swift */; };
+		A358C4E421A7E1AD00434A0A /* DailyPlanner4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A358C4E021A7E1AD00434A0A /* DailyPlanner4.xcdatamodeld */; };
+		A358C4E521A7E1AD00434A0A /* DailyPlannerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358C4E221A7E1AD00434A0A /* DailyPlannerDetailViewController.swift */; };
+		EC3FA58921A1213A00BF29D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FA58821A1213A00BF29D6 /* AppDelegate.swift */; };
+		EC3FA58B21A1213A00BF29D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FA58A21A1213A00BF29D6 /* MainViewController.swift */; };
+		EC3FA58E21A1213A00BF29D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3FA58C21A1213A00BF29D6 /* Main.storyboard */; };
+		EC3FA59021A1213B00BF29D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3FA58F21A1213B00BF29D6 /* Assets.xcassets */; };
+		EC3FA59321A1213B00BF29D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3FA59121A1213B00BF29D6 /* LaunchScreen.storyboard */; };
+		EC3FA59E21A1213B00BF29D6 /* SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FA59D21A1213B00BF29D6 /* SchedulerTests.swift */; };
+		EC3FA5A921A1213B00BF29D6 /* SchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FA5A821A1213B00BF29D6 /* SchedulerUITests.swift */; };
+		EC79D41D21A3855B00E2594F /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D41C21A3855B00E2594F /* classes.swift */; };
+		EC79D42121A3B33800E2594F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D42021A3B33800E2594F /* MainTableViewCell.swift */; };
+		ECA10AB43E7341FE0A716350 /* Pods_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD44D4007F4611D3E25C32 /* Pods_Scheduler.framework */; };
+		F3F36A2D2D6B5B84EE9D4BD3 /* Pods_SchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24E9F2E02A1F7EF1F20F149 /* Pods_SchedulerUITests.framework */; };
+		F51CAC77A3273E654D95CBB3 /* Pods_SchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416661BDE456EA5F7E2CA524 /* Pods_SchedulerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3FA59A21A1213B00BF29D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3FA57D21A1213A00BF29D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3FA58421A1213A00BF29D6;
+			remoteInfo = Scheduler;
+		};
+		EC3FA5A521A1213B00BF29D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3FA57D21A1213A00BF29D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3FA58421A1213A00BF29D6;
+			remoteInfo = Scheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107137B921AB8D8B008422C9 /* addTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTask.swift; sourceTree = "<group>"; };
+		1274DAC3D5CA460016C4A9C1 /* Pods-SchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchedulerTests/Pods-SchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		416661BDE456EA5F7E2CA524 /* Pods_SchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CD44D4007F4611D3E25C32 /* Pods_Scheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB8963E559F2999EF9955F0 /* Pods-Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler/Pods-Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		962FA47F21B617200055AC4D /* ToDoListTableView copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDoListTableView copy.swift"; sourceTree = "<group>"; };
+		962FA48221B617220055AC4D /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		962FA4BF21B64C630055AC4D /* checked.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.PNG; sourceTree = "<group>"; };
+		962FA4C121B64C630055AC4D /* unchecked.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.PNG; sourceTree = "<group>"; };
+		962FA4C221B64C630055AC4D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		962FA4C321B64C630055AC4D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		962FA4C421B64C630055AC4D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		962FA4C521B64C630055AC4D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		962FA4C621B64C630055AC4D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		962FA4D321BA45930055AC4D /* briefcase@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "briefcase@3x.png"; sourceTree = "<group>"; };
+		962FA4D421BA45950055AC4D /* visible@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visible@3x.png"; sourceTree = "<group>"; };
+		9662A72F21BCFDDD00FE0DD3 /* fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fail.png; sourceTree = "<group>"; };
+		9662A73021BCFDDE00FE0DD3 /* success.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = success.jpeg; sourceTree = "<group>"; };
+		966BF44021BA69DE00A79834 /* home_automation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_automation@3x.png"; sourceTree = "<group>"; };
+		966BF44121BA69E100A79834 /* file@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@3x.png"; sourceTree = "<group>"; };
+		966BF44421BABB9A00A79834 /* list@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@3x.png"; sourceTree = "<group>"; };
+		966BF44621BBD15D00A79834 /* icons8-today-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-today-96.png"; sourceTree = "<group>"; };
+		9EFF4A2D6CB1BC4C43CC8939 /* Pods-Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler/Pods-Scheduler.release.xcconfig"; sourceTree = "<group>"; };
+		A358C4DF21A7E1AD00434A0A /* DailyPalnnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyPalnnerViewController.swift; sourceTree = "<group>"; };
+		A358C4E121A7E1AD00434A0A /* DailyPlanner4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyPlanner4.xcdatamodel; sourceTree = "<group>"; };
+		A358C4E221A7E1AD00434A0A /* DailyPlannerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyPlannerDetailViewController.swift; sourceTree = "<group>"; };
+		C24E9F2E02A1F7EF1F20F149 /* Pods_SchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C709999C19F47F3E3BE70A9E /* Pods-SchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchedulerUITests/Pods-SchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D18F5AAB9BEFA24FE1FEB0F2 /* Pods-SchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchedulerUITests/Pods-SchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E77E7937BFAF8E65D7A031B4 /* Pods-SchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchedulerTests/Pods-SchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC3FA58521A1213A00BF29D6 /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3FA58821A1213A00BF29D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3FA58A21A1213A00BF29D6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EC3FA58D21A1213A00BF29D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3FA58F21A1213B00BF29D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3FA59221A1213B00BF29D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3FA59421A1213B00BF29D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3FA59921A1213B00BF29D6 /* SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3FA59D21A1213B00BF29D6 /* SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerTests.swift; sourceTree = "<group>"; };
+		EC3FA59F21A1213B00BF29D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3FA5A421A1213B00BF29D6 /* SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3FA5A821A1213B00BF29D6 /* SchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerUITests.swift; sourceTree = "<group>"; };
+		EC3FA5AA21A1213B00BF29D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC79D41C21A3855B00E2594F /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		EC79D42021A3B33800E2594F /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3FA58221A1213A00BF29D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA10AB43E7341FE0A716350 /* Pods_Scheduler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3FA59621A1213B00BF29D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51CAC77A3273E654D95CBB3 /* Pods_SchedulerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3FA5A121A1213B00BF29D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F36A2D2D6B5B84EE9D4BD3 /* Pods_SchedulerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		626BCC491C6018253A6A91BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CD44D4007F4611D3E25C32 /* Pods_Scheduler.framework */,
+				416661BDE456EA5F7E2CA524 /* Pods_SchedulerTests.framework */,
+				C24E9F2E02A1F7EF1F20F149 /* Pods_SchedulerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		655C8C1922C8A3BE41CF82E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8963E559F2999EF9955F0 /* Pods-Scheduler.debug.xcconfig */,
+				9EFF4A2D6CB1BC4C43CC8939 /* Pods-Scheduler.release.xcconfig */,
+				1274DAC3D5CA460016C4A9C1 /* Pods-SchedulerTests.debug.xcconfig */,
+				E77E7937BFAF8E65D7A031B4 /* Pods-SchedulerTests.release.xcconfig */,
+				D18F5AAB9BEFA24FE1FEB0F2 /* Pods-SchedulerUITests.debug.xcconfig */,
+				C709999C19F47F3E3BE70A9E /* Pods-SchedulerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		962FA4BA21B64C630055AC4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9662A72F21BCFDDD00FE0DD3 /* fail.png */,
+				9662A73021BCFDDE00FE0DD3 /* success.jpeg */,
+				966BF44621BBD15D00A79834 /* icons8-today-96.png */,
+				A358C4E021A7E1AD00434A0A /* DailyPlanner4.xcdatamodeld */,
+				966BF44021BA69DE00A79834 /* home_automation@3x.png */,
+				962FA4BF21B64C630055AC4D /* checked.PNG */,
+				962FA4C121B64C630055AC4D /* unchecked.PNG */,
+				962FA4C221B64C630055AC4D /* 5.png */,
+				962FA4C321B64C630055AC4D /* 6.png */,
+				962FA4C421B64C630055AC4D /* 2.png */,
+				966BF44421BABB9A00A79834 /* list@3x.png */,
+				962FA4D421BA45950055AC4D /* visible@3x.png */,
+				962FA4C521B64C630055AC4D /* 3.png */,
+				962FA4D321BA45930055AC4D /* briefcase@3x.png */,
+				966BF44121BA69E100A79834 /* file@3x.png */,
+				962FA4C621B64C630055AC4D /* 1.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC3FA57C21A1213A00BF29D6 = {
+			isa = PBXGroup;
+			children = (
+				EC3FA58721A1213A00BF29D6 /* Scheduler */,
+				EC3FA59C21A1213B00BF29D6 /* SchedulerTests */,
+				EC3FA5A721A1213B00BF29D6 /* SchedulerUITests */,
+				EC3FA58621A1213A00BF29D6 /* Products */,
+				655C8C1922C8A3BE41CF82E1 /* Pods */,
+				626BCC491C6018253A6A91BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3FA58621A1213A00BF29D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3FA58521A1213A00BF29D6 /* Scheduler.app */,
+				EC3FA59921A1213B00BF29D6 /* SchedulerTests.xctest */,
+				EC3FA5A421A1213B00BF29D6 /* SchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3FA58721A1213A00BF29D6 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				962FA4BA21B64C630055AC4D /* Resources */,
+				A358C4DF21A7E1AD00434A0A /* DailyPalnnerViewController.swift */,
+				A358C4E221A7E1AD00434A0A /* DailyPlannerDetailViewController.swift */,
+				962FA47F21B617200055AC4D /* ToDoListTableView copy.swift */,
+				962FA48221B617220055AC4D /* TimerViewController.swift */,
+				EC3FA58821A1213A00BF29D6 /* AppDelegate.swift */,
+				EC3FA58A21A1213A00BF29D6 /* MainViewController.swift */,
+				107137B921AB8D8B008422C9 /* addTask.swift */,
+				EC3FA58C21A1213A00BF29D6 /* Main.storyboard */,
+				EC79D42021A3B33800E2594F /* MainTableViewCell.swift */,
+				EC79D41C21A3855B00E2594F /* classes.swift */,
+				EC3FA58F21A1213B00BF29D6 /* Assets.xcassets */,
+				EC3FA59121A1213B00BF29D6 /* LaunchScreen.storyboard */,
+				EC3FA59421A1213B00BF29D6 /* Info.plist */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		EC3FA59C21A1213B00BF29D6 /* SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3FA59D21A1213B00BF29D6 /* SchedulerTests.swift */,
+				EC3FA59F21A1213B00BF29D6 /* Info.plist */,
+			);
+			path = SchedulerTests;
+			sourceTree = "<group>";
+		};
+		EC3FA5A721A1213B00BF29D6 /* SchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3FA5A821A1213B00BF29D6 /* SchedulerUITests.swift */,
+				EC3FA5AA21A1213B00BF29D6 /* Info.plist */,
+			);
+			path = SchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3FA58421A1213A00BF29D6 /* Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3FA5AD21A1213B00BF29D6 /* Build configuration list for PBXNativeTarget "Scheduler" */;
+			buildPhases = (
+				11AD1B362118A0251A10CEFA /* [CP] Check Pods Manifest.lock */,
+				EC3FA58121A1213A00BF29D6 /* Sources */,
+				EC3FA58221A1213A00BF29D6 /* Frameworks */,
+				EC3FA58321A1213A00BF29D6 /* Resources */,
+				522A70F608E921EA93EBF581 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scheduler;
+			productName = Scheduler;
+			productReference = EC3FA58521A1213A00BF29D6 /* Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3FA59821A1213B00BF29D6 /* SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3FA5B021A1213B00BF29D6 /* Build configuration list for PBXNativeTarget "SchedulerTests" */;
+			buildPhases = (
+				D423A980A00126D6DDC851D6 /* [CP] Check Pods Manifest.lock */,
+				EC3FA59521A1213B00BF29D6 /* Sources */,
+				EC3FA59621A1213B00BF29D6 /* Frameworks */,
+				EC3FA59721A1213B00BF29D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3FA59B21A1213B00BF29D6 /* PBXTargetDependency */,
+			);
+			name = SchedulerTests;
+			productName = SchedulerTests;
+			productReference = EC3FA59921A1213B00BF29D6 /* SchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3FA5A321A1213B00BF29D6 /* SchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3FA5B321A1213B00BF29D6 /* Build configuration list for PBXNativeTarget "SchedulerUITests" */;
+			buildPhases = (
+				D09171CD3EEF7D09F896906E /* [CP] Check Pods Manifest.lock */,
+				EC3FA5A021A1213B00BF29D6 /* Sources */,
+				EC3FA5A121A1213B00BF29D6 /* Frameworks */,
+				EC3FA5A221A1213B00BF29D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3FA5A621A1213B00BF29D6 /* PBXTargetDependency */,
+			);
+			name = SchedulerUITests;
+			productName = SchedulerUITests;
+			productReference = EC3FA5A421A1213B00BF29D6 /* SchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3FA57D21A1213A00BF29D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "JIAJUN LIANG";
+				TargetAttributes = {
+					EC3FA58421A1213A00BF29D6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EC3FA59821A1213B00BF29D6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC3FA58421A1213A00BF29D6;
+					};
+					EC3FA5A321A1213B00BF29D6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC3FA58421A1213A00BF29D6;
+					};
+				};
+			};
+			buildConfigurationList = EC3FA58021A1213A00BF29D6 /* Build configuration list for PBXProject "Scheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3FA57C21A1213A00BF29D6;
+			productRefGroup = EC3FA58621A1213A00BF29D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3FA58421A1213A00BF29D6 /* Scheduler */,
+				EC3FA59821A1213B00BF29D6 /* SchedulerTests */,
+				EC3FA5A321A1213B00BF29D6 /* SchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3FA58321A1213A00BF29D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962FA4D021B64C630055AC4D /* 2.png in Resources */,
+				966BF44321BA69E200A79834 /* file@3x.png in Resources */,
+				962FA4CE21B64C630055AC4D /* 5.png in Resources */,
+				9662A73121BCFDDE00FE0DD3 /* fail.png in Resources */,
+				EC3FA59321A1213B00BF29D6 /* LaunchScreen.storyboard in Resources */,
+				962FA4CD21B64C630055AC4D /* unchecked.PNG in Resources */,
+				962FA4D121B64C630055AC4D /* 3.png in Resources */,
+				966BF44721BBD16000A79834 /* icons8-today-96.png in Resources */,
+				962FA4D521BA45970055AC4D /* briefcase@3x.png in Resources */,
+				EC3FA59021A1213B00BF29D6 /* Assets.xcassets in Resources */,
+				EC3FA58E21A1213A00BF29D6 /* Main.storyboard in Resources */,
+				962FA4CF21B64C630055AC4D /* 6.png in Resources */,
+				966BF44521BABB9C00A79834 /* list@3x.png in Resources */,
+				9662A73221BCFDDE00FE0DD3 /* success.jpeg in Resources */,
+				962FA4D221B64C630055AC4D /* 1.png in Resources */,
+				966BF44221BA69E200A79834 /* home_automation@3x.png in Resources */,
+				962FA4CB21B64C630055AC4D /* checked.PNG in Resources */,
+				962FA4D621BA45970055AC4D /* visible@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3FA59721A1213B00BF29D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3FA5A221A1213B00BF29D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11AD1B362118A0251A10CEFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522A70F608E921EA93EBF581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Scheduler/Pods-Scheduler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scheduler/Pods-Scheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09171CD3EEF7D09F896906E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchedulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D423A980A00126D6DDC851D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchedulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3FA58121A1213A00BF29D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962FA48A21B617230055AC4D /* ToDoListTableView copy.swift in Sources */,
+				A358C4E521A7E1AD00434A0A /* DailyPlannerDetailViewController.swift in Sources */,
+				EC79D41D21A3855B00E2594F /* classes.swift in Sources */,
+				A358C4E321A7E1AD00434A0A /* DailyPalnnerViewController.swift in Sources */,
+				A358C4E421A7E1AD00434A0A /* DailyPlanner4.xcdatamodeld in Sources */,
+				107137BC21AB8D8B008422C9 /* addTask.swift in Sources */,
+				EC3FA58B21A1213A00BF29D6 /* MainViewController.swift in Sources */,
+				EC79D42121A3B33800E2594F /* MainTableViewCell.swift in Sources */,
+				962FA48D21B617230055AC4D /* TimerViewController.swift in Sources */,
+				EC3FA58921A1213A00BF29D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3FA59521A1213B00BF29D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3FA59E21A1213B00BF29D6 /* SchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3FA5A021A1213B00BF29D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3FA5A921A1213B00BF29D6 /* SchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3FA59B21A1213B00BF29D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3FA58421A1213A00BF29D6 /* Scheduler */;
+			targetProxy = EC3FA59A21A1213B00BF29D6 /* PBXContainerItemProxy */;
+		};
+		EC3FA5A621A1213B00BF29D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3FA58421A1213A00BF29D6 /* Scheduler */;
+			targetProxy = EC3FA5A521A1213B00BF29D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3FA58C21A1213A00BF29D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3FA58D21A1213A00BF29D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3FA59121A1213B00BF29D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3FA59221A1213B00BF29D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3FA5AB21A1213B00BF29D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3FA5AC21A1213B00BF29D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3FA5AE21A1213B00BF29D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB8963E559F2999EF9955F0 /* Pods-Scheduler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCG4GAK868;
+				INFOPLIST_FILE = Scheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecs189e.final.Schedulerv1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3FA5AF21A1213B00BF29D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFF4A2D6CB1BC4C43CC8939 /* Pods-Scheduler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCG4GAK868;
+				INFOPLIST_FILE = Scheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecs189e.final.Schedulerv1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC3FA5B121A1213B00BF29D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1274DAC3D5CA460016C4A9C1 /* Pods-SchedulerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XX589CA8L;
+				INFOPLIST_FILE = SchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecs189e.final.SchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scheduler.app/Scheduler";
+			};
+			name = Debug;
+		};
+		EC3FA5B221A1213B00BF29D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77E7937BFAF8E65D7A031B4 /* Pods-SchedulerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XX589CA8L;
+				INFOPLIST_FILE = SchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecs189e.final.SchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scheduler.app/Scheduler";
+			};
+			name = Release;
+		};
+		EC3FA5B421A1213B00BF29D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18F5AAB9BEFA24FE1FEB0F2 /* Pods-SchedulerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XX589CA8L;
+				INFOPLIST_FILE = SchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecs189e.final.SchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scheduler;
+			};
+			name = Debug;
+		};
+		EC3FA5B521A1213B00BF29D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C709999C19F47F3E3BE70A9E /* Pods-SchedulerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XX589CA8L;
+				INFOPLIST_FILE = SchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecs189e.final.SchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3FA58021A1213A00BF29D6 /* Build configuration list for PBXProject "Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3FA5AB21A1213B00BF29D6 /* Debug */,
+				EC3FA5AC21A1213B00BF29D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3FA5AD21A1213B00BF29D6 /* Build configuration list for PBXNativeTarget "Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3FA5AE21A1213B00BF29D6 /* Debug */,
+				EC3FA5AF21A1213B00BF29D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3FA5B021A1213B00BF29D6 /* Build configuration list for PBXNativeTarget "SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3FA5B121A1213B00BF29D6 /* Debug */,
+				EC3FA5B221A1213B00BF29D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3FA5B321A1213B00BF29D6 /* Build configuration list for PBXNativeTarget "SchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3FA5B421A1213B00BF29D6 /* Debug */,
+				EC3FA5B521A1213B00BF29D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A358C4E021A7E1AD00434A0A /* DailyPlanner4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A358C4E121A7E1AD00434A0A /* DailyPlanner4.xcdatamodel */,
+			);
+			currentVersion = A358C4E121A7E1AD00434A0A /* DailyPlanner4.xcdatamodel */;
+			path = DailyPlanner4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC3FA57D21A1213A00BF29D6 /* Project object */;
+}
