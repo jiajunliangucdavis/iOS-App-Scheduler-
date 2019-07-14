@@ -10,8 +10,9 @@ We need to collect as much feedback as we can to continue refining our app. Mean
 
 ## App View
 ![Image 1 of App](https://github.com/jiajunliangucdavis/iOS-App-Scheduler-/blob/master/mockup%20and%20team%20milestone/1.PNG)
-
-
+![Image 2 of App](https://github.com/jiajunliangucdavis/iOS-App-Scheduler-/blob/master/mockup%20and%20team%20milestone/2.PNG)
+![Image 3 of App](https://github.com/jiajunliangucdavis/iOS-App-Scheduler-/blob/master/mockup%20and%20team%20milestone/3.PNG)
+![Image 4 of App](https://github.com/jiajunliangucdavis/iOS-App-Scheduler-/blob/master/mockup%20and%20team%20milestone/4.PNG)
 
 
 ## Team Member:
